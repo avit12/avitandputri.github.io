@@ -1,0 +1,63 @@
+.display {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0.7, 0, 0, 0), rgba(0, 0, 0, 0.6)), url('/dist/img/display.jpg');
+  background-position: center;
+  background-position: fixed;
+  background-size: cover;
+}
+.display2 {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(rgba(0.7, 0, 0, 0), rgba(0, 0, 0, 0.6)), url('/dist/img/slide1.jpg');
+  background-position: center;
+  background-position: fixed;
+  background-size: cover;
+}
+#particles-js {
+  display: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+.avit {
+  position: absolute;
+  top: 0%;
+}
+
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%;
+}
+.icon-scroll {
+  width: 30px;
+  height: 50px;
+  margin-left: -20px;
+  bottom: 10px;
+  margin-top: -35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+}
+
+.icon-scroll:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #dcd1c1;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(26px);
+  }
+}

@@ -1,0 +1,29 @@
+/* Countdown */
+.container-hari,
+.container-jam,
+.container-menit,
+.container-detik {
+  color: #795b43;
+}
+
+.animasi-coundown {
+  animation: animasiWaktu 1s linear infinite forwards;
+  animation-delay: 1s;
+}
+@keyframes animasiWaktu {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+.time {
+  padding-top: 50%;
+  padding-bottom: 50%;
+  transform: translate(-50%, -50%);
+}

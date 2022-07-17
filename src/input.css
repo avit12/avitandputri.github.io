@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border-gradient-br-blue-green-gray-900 {
+  background: linear-gradient(to right, #ffff, #ffff), linear-gradient(to bottom right, #60a5fa, #4ade80);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}

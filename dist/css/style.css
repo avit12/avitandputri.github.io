@@ -1,0 +1,165 @@
+#shadow {
+  box-shadow: 0 0.5em 0.5em -0.4em;
+}
+.shadow {
+  box-shadow: 0 0.5em 0.5em -0.4em;
+}
+
+#kado {
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url('/dist/img/kado.jpg');
+}
+.container1 {
+  top: 50%;
+  left: 50%;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+}
+
+.salin {
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 40px;
+  transition: all 0.25s ease;
+}
+
+.salin:active {
+  letter-spacing: 2px;
+}
+
+.container1:before {
+  font-family: 'FontAwesome';
+  content: ' \f0c5 ';
+}
+.container1:after {
+  content: ' SALIN ';
+}
+
+.onclic {
+  width: 40px;
+  border-color: #bbbbbb;
+  border-width: 3px;
+  font-size: 0;
+  border-left-color: RGB(220 38 38);
+  animation: rotating 2s 0.25s linear;
+}
+
+.onclic:after {
+  content: '';
+}
+
+.validate {
+  font-size: 13px;
+  color: white;
+  background: rgb(220 38 38);
+}
+
+.validate:after {
+  font-family: 'FontAwesome';
+  content: '\f00c';
+  font-size: 24px;
+}
+.validate:before {
+  content: '';
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* BANK BRI */
+.onclic-bri {
+  width: 40px;
+  border-color: #bbbbbb;
+  border-width: 3px;
+  font-size: 0;
+  border-left-color: RGB(37 99 235);
+  animation: rotating 2s 0.25s linear;
+}
+
+.onclic-bri:after {
+  content: '';
+}
+
+.validate-bri {
+  font-size: 13px;
+  color: white;
+  background: rgb(37 99 235);
+}
+
+.validate-bri:after {
+  font-family: 'FontAwesome';
+  content: '\f00c';
+  font-size: 24px;
+}
+.validate-bri:before {
+  content: '';
+}
+
+/* GOPAY */
+.onclic-gopay {
+  width: 40px;
+  border-color: #bbbbbb;
+  border-width: 3px;
+  font-size: 0;
+  border-left-color: RGB(37 99 235);
+  animation: rotating 2s 0.25s linear;
+}
+
+.onclic-gopay:after {
+  content: '';
+}
+
+.validate-gopay {
+  font-size: 13px;
+  color: white;
+  background: rgb(37 99 235);
+}
+
+.validate-gopay:after {
+  font-family: 'FontAwesome';
+  content: '\f00c';
+  font-size: 24px;
+}
+.validate-gopay:before {
+  content: '';
+}
+
+/* SHOPPE */
+.onclic-shoppe {
+  width: 40px;
+  border-color: #bbbbbb;
+  border-width: 3px;
+  font-size: 0;
+  border-left-color: #ee4d2d;
+  animation: rotating 2s 0.25s linear;
+}
+
+.onclic-shoppe:after {
+  content: '';
+}
+
+.validate-shoppe {
+  font-size: 13px;
+  color: white;
+  background: #ee4d2d;
+}
+
+.validate-shoppe:after {
+  font-family: 'FontAwesome';
+  content: '\f00c';
+  font-size: 24px;
+}
+.validate-shoppe:before {
+  content: '';
+}
